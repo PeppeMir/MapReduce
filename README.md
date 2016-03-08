@@ -56,3 +56,27 @@ int main()
   return 0;
 }
 ```
+
+## Sample performance benchmark for sorting algorithms
+
+![ScreenShot](https://raw.githubusercontent.com/PeppeMir/MapReduce/master/plots/Sorting%20comparison.png)
+
+## Sample performance benchmark for coarse grain computation
+
+In the following plots we can find performance benchmarks relative to scalability and efficiency of the Map and Reduce phases w.r.t. the expected one (the one provided by the ideal model).
+
+### Map Scalability
+
+![ScreenShot](https://raw.githubusercontent.com/PeppeMir/MapReduce/master/plots/Benchmark%20of%20Map%20Scalability%20on%20Intel%20Xeon%20Phi%20(coarse%20grain%20computation).png)
+
+### Map Efficiency
+
+![ScreenShot](https://raw.githubusercontent.com/PeppeMir/MapReduce/master/plots/Benchmark%20of%20Map%20Efficiency%20on%20Intel%20Xeon%20Phi%20(coarse%20grain%20computation).png)
+
+### Reduce Scalability
+
+![ScreenShot](https://raw.githubusercontent.com/PeppeMir/MapReduce/master/plots/Benchmark%20of%20Reduce%20Scalability%20(coarse%20grain%20computation).png)
+
+### Reduce Efficiency
+
+![ScreenShot](https://raw.githubusercontent.com/PeppeMir/MapReduce/master/plots/Benchmark%20of%20Reduce%20Efficiency%20on%20Intel%20Xeon%20Phi%20(coarse%20grain%20computation).png)
